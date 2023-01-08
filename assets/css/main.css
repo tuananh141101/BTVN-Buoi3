@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {background-color: #f4f7fa;}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a {text-decoration: none;}
+.container {width: 100%;height: 1200px;}
+ul {list-style: none;}
+.list-card {
+    width: 1200px;
+    height: 75%;
+    margin: 0 auto;
+}
+.list-card .top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.top .card-item {
+    width: 33.33%;
+    height: 90%;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.top .card-item .card-item__img {
+    width: 100%;
+    height: 70%;
+}
+.top .card-item .card-item__title {
+    width: 100%;
+    height: 30%;
+}
+.top .card-item .card-item__title p {
+    font-size: 19.2px;
+    line-height: 28.8px;
+    margin: 10px 15px;
+}
+.top .card-item .card-item__title p:nth-child(2) {
+    font-size: 14.4px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.list-card .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.bottom .card-item {
+    width: 33.33%;
+    height: 90%;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.bottom .card-item .card-item__img {
+    width: 100%;
+    height: 70%;
+}
+.bottom .card-item .card-item__title {
+    width: 100%;
+    height: 30%;
+}
+.bottom .card-item .card-item__title p {
+    font-size: 19.2px;
+    line-height: 28.8px;
+    margin: 10px 15px;
+}
+.bottom .card-item .card-item__title p:nth-child(2) {
+    font-size: 14.4px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 25%;
+    background-color: #30598c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container .item {
+    width: 24%;
+    height: 90%;
+}
+.footer-container .item ul li {
+    padding: 7px 0 ;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-container .item ul li, a {color: white;}
+.footer-container .item ul li:hover {color: gray;}
+.footer-container .item ul li:hover a{color: gray;}
+.footer-container .item ul li:first-child {font-size: 18px;}
